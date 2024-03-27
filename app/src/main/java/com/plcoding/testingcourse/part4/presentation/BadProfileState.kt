@@ -7,3 +7,11 @@ data class BadProfileState(
     val isLoading: Boolean = false,
     val infoMessage: String? = null
 )
+
+data class GoodProfileState(
+    val profileId: Long = 0,
+    val username: String = "",
+    val bio: String = "",
+    val isLoading: Boolean = false,
+    val infoMessage: UiText? = null
+)
