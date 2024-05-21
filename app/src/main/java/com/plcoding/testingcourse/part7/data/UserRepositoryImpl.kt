@@ -8,7 +8,7 @@ import kotlinx.coroutines.coroutineScope
 import retrofit2.HttpException
 import java.io.IOException
 
-class UserRepositoryImpl(
+open class UserRepositoryImpl(
     private val api: UserApi
 ): UserRepository {
 
